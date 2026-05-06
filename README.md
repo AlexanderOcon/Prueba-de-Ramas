@@ -1,16 +1,55 @@
-# React + Vite
+# ⚡ React + Vite Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Plantilla minimalista para iniciar proyectos con **React** utilizando **Vite**, con soporte para **Hot Module Replacement (HMR)** y configuración básica de **ESLint**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Características
 
-## React Compiler
+- ⚡ Configuración rápida con Vite  
+- 🔥 Recarga en caliente (HMR)  
+- 🧹 Reglas básicas de ESLint  
+- 📦 Estructura lista para escalar  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🔌 Plugins disponibles
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Actualmente, puedes elegir entre dos plugins oficiales para React:
+
+- **@vitejs/plugin-react**  
+  Utiliza **Babel** (OXC) para la transformación.
+
+- **@vitejs/plugin-react-swc**  
+  Utiliza **SWC**, ofreciendo compilaciones más rápidas.
+
+---
+
+## 🧠 React Compiler
+
+El **React Compiler** no está habilitado por defecto en esta plantilla debido a su impacto en el rendimiento durante el desarrollo y la compilación.
+
+Si deseas habilitarlo, puedes consultar la documentación oficial:  
+👉 https://react.dev/learn/react-compiler/installation
+
+---
+
+## 🛠️ ESLint y buenas prácticas
+
+Para proyectos en producción, se recomienda:
+
+- Usar **TypeScript**
+- Habilitar reglas de linting con análisis de tipos
+
+Puedes usar la plantilla oficial con TypeScript:  
+👉 https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts
+
+También puedes integrar:  
+👉 https://typescript-eslint.io
+
+---
+
+## 📦 Instalación
+
+```bash
+npm install
